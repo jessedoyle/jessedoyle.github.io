@@ -1,0 +1,44 @@
+/* Basic */
+
+// Ensures page width is always >=320px.
+@include breakpoint(xsmall) {
+	html, body {
+		min-width: 320px;
+	}
+}
+
+body {
+	&.is-loading {
+		*, *:before, *:after {
+			@include vendor('animation', 'none !important');
+			@include vendor('transition', 'none !important');
+		}
+	}
+
+	height: 100%;
+	background-color: _palette(bg);
+
+	&:after {
+		content: '';
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: inherit;
+		opacity: 0;
+		z-index: 1;
+
+		@include vendor('transition', 'opacity #{_duration(bg)} ease-out');
+	}
+
+	&.is-loading {
+		&:after {
+			opacity: 1;
+		}
+	}
+}
+
+html {
+	height: 100%;
+}

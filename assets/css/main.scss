@@ -1,0 +1,10 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$font_dir: {{ "/fonts" | prepend: site.asset_dir | prepend: site.basedir }};
+
+@charset "utf-8";
+@import 'libs/vars';
+@import 'fonts';
+@import 'pixyll/pixyll';

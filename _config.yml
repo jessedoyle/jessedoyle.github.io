@@ -1,0 +1,26 @@
+# Site settings
+title: Jesse Doyle
+email: jdoyle@ualberta.ca
+description: "Web Developer, Ruby Enthusiast"
+baseurl: ""
+url: "http://jessedoyle.me"
+asset_dir: /assets
+date_format: "%b %-d, %Y"
+twitter_username:  jessedoyle2
+github_username:   jessedoyle
+linkedin_username:  jessepdoyle
+
+card_name: Jesse Doyle
+card_description: Web Developer | Ruby Enthusiast
+show_post_footers: false
+
+# Build settings
+markdown: kramdown
+timezone: America/Edmonton
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink: pretty
+paginate: 4
+sass:
+  sass_dir: assets/_sass
+  style: compressed

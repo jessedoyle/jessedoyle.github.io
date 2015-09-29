@@ -1,0 +1,17 @@
+<body class="is-loading">
+  <div id="wrapper">
+    <section class="card">
+      <header>
+        <span class="avatar">
+          <img src="{{ "/images/avatar.png" | prepend: site.asset_dir | prepend: site.basedir  }}" alt="{{ site.card_name }} avatar" />
+        </span>
+        <h1>{{ site.card_name }}</h1>
+        <p>{{ site.card_description }}</p>
+      </header>
+      {% include card/links.html %}
+      {% include card/social_icons.html %}
+      <p><a href="mailto:{{ site.email }}" class="email">{{ site.email }}</a></p>
+    </section>
+    {% include card/footer.html %}
+  </div>
+</body>
