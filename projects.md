@@ -18,5 +18,7 @@ _Here's a (non-exhaustive) list of the projects I'm most fond of:_
 * **Duktape.cr** ([via Github](https://github.com/jessedoyle/duktape.cr))
   * Crystal bindings to the [Duktape](http://duktape.org) JavaScript engine.
   * Simply execute JS code from Crystal.
+* **Port** ([via Github](https://github.com/jessedoyle/port))
+  * A simple Rails app that adds basic authorization on top of static pages.
 * **iSight CLI Disabler** ([via Github](https://github.com/jessedoyle/isight-cli))
   * Simple bash script to disable/enable a Mac's iSight camera.
