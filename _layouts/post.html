@@ -23,7 +23,7 @@ layout: default
 </div>
 
 <article class="post-content">
-  {{ content }}
+  {{ content | markdownify }}
 </article>
 
 {% if site.show_post_footers %}

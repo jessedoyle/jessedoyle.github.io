@@ -14,6 +14,10 @@ card_name: Jesse Doyle
 card_description: Web Developer | Ruby Enthusiast
 show_post_footers: false
 
+text:
+  index:
+    coming_soon: "I'm currently working on my blog, please check back later!"
+
 # Build settings
 markdown: kramdown
 timezone: America/Edmonton
@@ -24,3 +28,8 @@ paginate: 4
 sass:
   sass_dir: assets/_sass
   style: compressed
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+# https://github.com/jekyll/jekyll/issues/2938
+exclude: [vendor]
