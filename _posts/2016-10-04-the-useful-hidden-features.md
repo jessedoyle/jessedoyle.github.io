@@ -113,7 +113,7 @@ end
 `echo $SHELL` # => "command: echo $SHELL"
 ```
 
-A use case of this may be to mock system commands in tests, or to log a command before it is executed. With that being said, most Ruby developers agree that it's probably [best to not user backticks at all]( http://www.hilman.io/blog/2016/01/stop-using-backtick-to-run-shell-command-in-ruby/).
+A use case of this may be to mock system commands in tests, or to log a command before it is executed. With that being said, most Ruby developers agree that it's probably [best to not use backticks at all]( http://www.hilman.io/blog/2016/01/stop-using-backtick-to-run-shell-command-in-ruby/).
 
 ### 4. IRB-fu
 
@@ -219,6 +219,12 @@ puts method.source
 # def configuration
 #   application.config
 # end
+```
+
+Finally, it's possible to use `method` somewhat like [Symbol#to_proc](http://ruby-doc.org/core-2.3.1/Symbol.html#method-i-to_proc):
+
+```ruby
+['/etc/hosts', '_missing_'].map(&File.method(:exist?)) # => [true, false]
 ```
 
 I'm sure that this list just scratches the surface for Ruby's hidden functionality. Feel free to let me know if you think there is something missing from this list!
