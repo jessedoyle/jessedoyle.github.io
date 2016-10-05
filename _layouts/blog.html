@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign posts_count = (site.posts | size) %}
 
 <div class="home">
   <div class="posts">
@@ -10,7 +11,9 @@ layout: default
     {% for post in site.posts %}
       <div class="post py3">
         <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+          <h4 class="h1 post-title">{{ post.title }}</h4>
+        </a>
         <p class="post-summary">
           {% if post.summary %}
             {{ post.summary }}
@@ -20,5 +23,8 @@ layout: default
         </p>
       </div>
     {% endfor %}
+    {% if posts_count == 0 %}
+      <h4>{{ site.text.index.coming_soon }}</h4>
+    {% endif %}
   </div>
 </div>

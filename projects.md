@@ -8,6 +8,11 @@ _I've worked on a number of projects recently, and I love contributing to open-s
 
 _Here's a (non-exhaustive) list of the projects I'm most fond of:_
 
+* **Vehicle Registration Auto-Renew** ([link](https://registries.ama.ab.ca)) ([info](https://ama.ab.ca/registries/vehicle-registration-auto-renew/))
+  * Built with Rails in conjuction with a small development team at [AMA](https://ama.ab.ca).
+  * Deployed on AWS.
+  * Successfully processed more than 30,000 vehicle registrations in less than 8 months.
+  * Media: [cbc.ca](http://www.cbc.ca/news/canada/edmonton/alberta-will-no-longer-mail-out-vehicle-registration-reminders-1.3527233), [globalnews.ca](http://globalnews.ca/news/2937450/robocalls-remind-alberta-drivers-to-sign-up-for-online-vehicle-registration-reminder/).
 * **Terrace Solutions** ([link](https://terracesafety.com))
   * Custom web application to manage a large pool of safety personnel built for Terrace Safety.
   * Built with Rails.
