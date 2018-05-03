@@ -12,10 +12,10 @@ In school, I dabbled in many programming languages such as Java, C, Scheme and P
 
 I love contributing to open-source projects. I've contributed to many projects, including the following:
 
-* [Prawn](https://github.com/prawnpdf/prawn) - A Ruby PDF generation library.
-* [Crystal](https://github.com/manastech/crystal) - A programming language inspired by Ruby.
-* [TTFunk](https://github.com/prawnpdf/ttfunk) - An all-ruby TTF font parser.
-* [Asciidoctor-PDF](https://github.com/asciidoctor/asciidoctor-pdf) - PDF backend for the [Asciidoctor](http://asciidoctor.org) project.
+* [Foundation](https://github.com/zurb/foundation-sites) - Frontend framework.
+* [Rails](http://contributors.rubyonrails.org/contributors/jesse-doyle/commits) - Web application framework.
+* [Prawn](https://github.com/prawnpdf/prawn) - Ruby PDF generation library.
+* [Crystal](https://github.com/manastech/crystal) - Programming language inspired by Ruby.
 
 In my free time I enjoy travelling, hiking, and constantly improving my development skills by reading source code or hacking on a side project.
 
