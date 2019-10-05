@@ -28,7 +28,7 @@ paginate: 4
 sass:
   sass_dir: assets/_sass
   style: compressed
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
