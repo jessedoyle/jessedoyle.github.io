@@ -12,5 +12,10 @@ if (typeof(window.addEventListener) === 'function') {
 
 if (typeof console != 'undefined') {
   console.clear();
-  console.log('%cHi there! You can contact me at %c{{ site.email }}.', 'color: #3D3D3D; font-size: 14px;', 'color: #3D3D3D; font-size: 14px; font-weight: bold;');
+  console.log(
+    '%cHi there! You can contact me at %c{{ site.email }}. %cMention the Easter Egg!',
+    'color: #3D3D3D; font-size: 14px;',
+    'color: #3D3D3D; font-size: 14px; font-weight: bold;',
+    'color: #3D3D3D; font-size: 14px;'
+  );
 }

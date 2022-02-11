@@ -1,7 +1,7 @@
 # Site settings
 title: Jesse Doyle
-email: jdoyle@ualberta.ca
-description: "Web Developer, Ruby Enthusiast"
+email: hello@jessedoyle.me
+description: "Developer, Ruby Enthusiast"
 baseurl: ""
 url: "http://jessedoyle.me"
 asset_dir: /assets
@@ -11,7 +11,7 @@ github_username:   jessedoyle
 linkedin_username:  jessepdoyle
 
 card_name: Jesse Doyle
-card_description: Web Developer | Ruby Enthusiast
+card_description: Developer | Ruby Enthusiast
 show_post_footers: false
 
 text:
