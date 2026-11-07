@@ -8,6 +8,10 @@ _I've worked on a number of projects recently, and I love contributing to open-s
 
 _Here's a (non-exhaustive) list of the projects I'm most fond of:_
 
+* **Google AI Mode Integration - Jobber** ([link](https://help.getjobber.com/en/articles/jobber-and-google-ai-mode-integration/))
+  * API design and implementation with Jobber's core application.
+  * Mentioned by Google's VP of product on [x.com](https://x.com/rmstein/status/2118027605018632408).
+  * Media: [PRN](https://www.prnewswire.com/news-releases/jobber-integrates-with-ai-mode-in-google-search-opening-a-new-customer-acquisition-channel-for-home-and-commercial-service-businesses-302926881.html).
 * **Vehicle Registration Auto-Renew** ([link](https://registries.ama.ab.ca)) ([info](https://ama.ab.ca/registries/vehicle-registration-auto-renew/))
   * Built with Rails in conjuction with a small development team at [AMA](https://ama.ab.ca).
   * Deployed on AWS.
@@ -21,5 +25,3 @@ _Here's a (non-exhaustive) list of the projects I'm most fond of:_
   * Simply execute JS code from Crystal.
 * **Aws::Lex::Conversation** ([via GitHub](https://github.com/amaabca/aws-lex-conversation))
   * A Ruby library that makes it simple to build Chatbots with [AWS Lex](https://aws.amazon.com/lex/).
-* **iSight CLI Disabler** ([via GitHub](https://github.com/jessedoyle/isight-cli))
-  * Simple bash script to disable/enable a Mac's iSight camera.
